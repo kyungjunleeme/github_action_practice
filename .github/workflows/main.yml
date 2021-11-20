@@ -27,8 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run pwd
-        run: echo Hello, world!
-
+        run: pwd
       - name: Run ls -al
         run: ls -al
 
